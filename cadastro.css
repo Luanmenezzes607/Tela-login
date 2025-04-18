@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-image: radial-gradient(#fff 30%, #87ceeb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    width: 60%;
+    height: 450px;
+    background-color: aliceblue;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 10px 15px 15px 10px rgba(0, 0, 0, 0.078);
+}
+
+.cadastro{
+    background-color: rgb(50, 157, 228);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.cadastro img{
+    width: 400px;
+}
+
+.cadastro p{
+    margin: 5px 0px 7px;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    padding: 20px 40px;
+    gap: 15px;
+}
+
+.login h1{
+    text-align: center;
+}
+
+.login input{
+    padding: 8px 15px;
+    width: 100%;
+    background-color: rgba(220, 214, 214, 0.515);
+    border: none;
+    border-radius: 7px;
+}
+
+.login p{
+    margin: 0px 0px;
+    text-align: center;
+}
+
+.btn-register{
+    padding: 8px 0px;
+    width: 100%;
+    cursor: pointer;
+    background-color: #329DE4;
+    border: none;
+    border-radius: 7px;
+    color: aliceblue;
+    font-weight: 600;
+    transition: .3s ease-in-out;
+}
+
+.btn-register:hover{
+    background-color: rgb(28, 138, 217);
+    scale: 1.05;
+}
+
+.input-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.input-icon i{
+    color: gray;
+    font-size: 13px;
+    margin-left: -20px;
+}
+
+.input-icon .eye1, .eye2{
+    display: none;
+    cursor: pointer;
+}
+
+.input-icon .eye2{
+    display: none;
+    cursor: pointer;
+}
+
+span{
+    color: red;
+    font-size: 10px;
+    margin: -10px 10px;
+    text-align: left;
+    display: none;
+}
+
+
